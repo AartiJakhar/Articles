@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@700&family=Raleway:wght@100;900&display=swap');
+*{
+  font-family: 'Open Sans', sans-serif;
+  /* overflow: hidden; */
+  box-sizing: border-box;
+  /* font-weight: bold; */
+  /* font-family: 'Raleway', sans-serif; */
+}
+*::selection{
+  background:#2e475d ;
+  color: white;
+}
+
+/* 
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */

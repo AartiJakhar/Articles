@@ -1,0 +1,19 @@
+.footer li{
+    list-style: none;
+
+}
+.footer li a{
+    font-size: 1.4rem;
+    color:  rgb(120, 119, 119);
+    text-decoration: none;
+}
+.footer li a:hover{
+ color: rgb(0, 0, 0);
+}
+
+.fa-brands{
+    color: black;
+    width: 2rem;
+    font-size: 2rem;
+    margin: 0rem 1rem;
+}

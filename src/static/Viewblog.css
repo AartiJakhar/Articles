@@ -1,0 +1,112 @@
+.view{
+    margin:5rem ;
+    /* border: solid red; */
+}
+.view h1{
+    color:#2e475d;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height:1.34;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 1.6rem;
+}
+
+.publishBox{
+    display: flex;
+    padding: .3rem;
+    justify-content: space-between;
+    border-bottom: solid #2e475d;
+    border-top: solid #2e475d;
+    align-items: center;
+}
+.publishBox p{
+    color: #2e475d;
+    font: 1.5em sans-serif;
+    
+}
+.publisher{
+    display: flex;
+    align-items: center;
+}
+.publisher img {
+   width: 5rem;
+   height: 5rem;
+   border-radius: 3rem;
+}
+.publisher p{
+    color:#0b8484;
+    font-size: 1.4rem;
+    padding: .7rem 0rem 0rem 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mainBox{
+    color: #2e475d;
+    font-weight: bold;
+    padding: 3rem 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.4rem;
+}
+.mainBox p {
+    padding: 1rem;
+}
+.mainBox a{
+    color: #0b8484;
+    text-decoration: none;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+}
+.mainBox a:hover{
+    text-decoration: underline;
+}
+.backArrow{
+    font-size:3rem;
+    color: blue;
+    cursor: pointer;
+    display: inline;
+
+}
+.backArrow:hover{
+    color: #840b60;
+}
+/* fonts  */
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+/* font-family: 'Raleway', sans-serif; */
+
+@media screen and (max-width:1023px) {
+    .view{
+        margin: 5rem 2rem;
+        width: 46rem;
+    }
+    .view h1 {
+        font-size: 2.25rem;
+    }
+    .mainBox img{
+        width: 33rem;
+
+    }
+
+}
+@media screen and (max-width:770px) {
+    .view{
+        /* margin: 5rem 2rem; */
+        width: 30rem;
+    }
+
+}
+.viewbtn{
+    border: none;
+    background: black;
+    color: white;
+    padding: .4rem 2rem;
+    font-size: 1.4rem;
+    border-radius: 1rem;
+
+}

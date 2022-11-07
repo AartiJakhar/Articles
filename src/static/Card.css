@@ -1,0 +1,86 @@
+.card{
+ display: inline-block;
+ align-items: center;
+ width: 24rem;
+    height: 33rem;
+ /* border:solid 1px rgb(228, 228, 228); */
+ box-shadow: -1px -1px 4px rgb(209, 209, 209);
+ margin: 2rem;
+ border-radius: 11px;
+ cursor: pointer;
+}
+.card:hover{
+ box-shadow: -3px -3px 9px rgb(88, 88, 88);
+ background-color: rgb(221, 221, 221);
+ transition: all .3s ease ;
+}
+.card div img{
+    width: 24rem;
+    height: 15rem;
+    border-radius: 11px;
+}
+.card div h4{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color:#2e475d;
+    height: 10rem;
+    padding: 0rem 1rem;
+}
+.card div h5{
+    color:#2e475d;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 1rem ;
+}
+.fa-solid{
+    cursor: pointer;
+    margin: 8px;
+}
+
+@media screen and (max-width:1023px) {
+    .card{
+        width: 30rem;
+    }
+    .card div img{
+        width: 30rem;
+    }
+    .card div h4{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .card{
+        width: 26.5rem;
+    }
+    .card div img{
+        width: 26.5rem;
+    }
+    .card div h4{
+        font-size: 2rem;
+    }
+}
+
+.cardbtn {
+    position: relative;
+    float: right;
+    bottom: 5px;
+    border: none;
+    background: transparent;
+    color: #2e475d;
+    text-decoration: none;
+    font-size: 1.4rem;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+}
+.cardbtn:hover{
+    text-decoration: underline;
+}
+.notFound{
+    text-align: center;
+}
+.notFound img{
+    position: relative;
+    bottom: 6rem;
+}
