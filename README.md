@@ -5,9 +5,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
-
+### `npm i`
 ### `npm run both`
-
+### `I'm using MongoDB as a Database so make sure You have installed it and you can use MongoDB compass to set Your connection  locally or set your connection string URI in backend/db.js`
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
